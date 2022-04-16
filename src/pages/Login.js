@@ -4,7 +4,7 @@ import { Button, TextField } from "@mui/material";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import Grid from "@mui/material/Box";
-import authState from "../stores/access/atom";
+import authState from "../stores/auth/atom";
 
 function Login() {
 	const [username, setUsername] = useState("");

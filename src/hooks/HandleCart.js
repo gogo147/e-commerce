@@ -1,8 +1,8 @@
-import { itemState } from "../stores/shop/atom";
+import { cartState } from "../stores/cart/atom";
 import { useRecoilState } from "recoil";
 
 function HandleCart() {
-	const [cart, setCart] = useRecoilState(itemState);
+	const [cart, setCart] = useRecoilState(cartState);
 
 	function setItemQty(id, qty) {
 		setCart(

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button, TextField, Grid } from "@mui/material";
 import { useRecoilState } from "recoil";
 import axios from "axios";
-import authState from "../stores/access/atom";
+import authState from "../stores/auth/atom";
 
 function Dashboard() {
 	const [auth, setAuth] = useRecoilState(authState);

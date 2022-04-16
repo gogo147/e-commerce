@@ -1,8 +1,8 @@
 import axios from "axios";
 import { atom } from "recoil";
 
-const accontState = atom({
-	key: "accontState",
+const usersState = atom({
+	key: "UsersState",
 	default: [],
 	effects: [
 		({ setSelf }) => {
@@ -14,4 +14,4 @@ const accontState = atom({
 	],
 });
 
-export default accontState;
+export default usersState;

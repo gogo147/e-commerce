@@ -1,7 +1,7 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
 import HandleCart from "../hooks/HandleCart";
-import productsState from "../stores/items/atom";
+import productsState from "../stores/products/atom";
 import Card from "../components/Card";
 import { useRecoilValue } from "recoil";
 

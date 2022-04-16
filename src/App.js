@@ -10,7 +10,7 @@ import {
 	Signup,
 } from "./pages/index";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import authState from "./stores/access/atom";
+import authState from "./stores/auth/atom";
 import { useRecoilValue } from "recoil";
 import CssBaseline from "@mui/material/CssBaseline";
 import Style from "./components/Style";

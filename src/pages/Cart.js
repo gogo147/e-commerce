@@ -1,5 +1,5 @@
 import React from "react";
-import productsState from "../stores/items/atom";
+import productsState from "../stores/products/atom";
 import HandleCart from "../hooks/HandleCart";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";

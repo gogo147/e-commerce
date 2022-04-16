@@ -1,6 +1,6 @@
 import React from "react";
 import HandleCart from "../hooks/HandleCart";
-import productsState from "../stores/items/atom";
+import productsState from "../stores/products/atom";
 import { useParams } from "react-router-dom";
 import { useRecoilValue } from "recoil";
 import ItemCard from "../components/ItemCard";

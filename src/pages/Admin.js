@@ -5,8 +5,8 @@ import {
 	AccordionSummary,
 	AccordionDetails,
 } from "@mui/material";
-import productsState from "../stores/items/atom";
-import usersState from "../stores/account/atom";
+import productsState from "../stores/products/atom";
+import usersState from "../stores/users/atom";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 function Admin() {

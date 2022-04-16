@@ -3,7 +3,7 @@ import { Button, TextField, Grid } from "@mui/material";
 import { useSetRecoilState } from "recoil";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import authState from "../stores/access/atom";
+import authState from "../stores/auth/atom";
 
 function Signup() {
 	const setAuth = useSetRecoilState(authState);

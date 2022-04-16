@@ -6,7 +6,7 @@ import IconButton from "@mui/material/IconButton";
 import MenuItem from "@mui/material/MenuItem";
 import { NavLink, useNavigate } from "react-router-dom";
 import { useRecoilValue, useResetRecoilState } from "recoil";
-import authState from "../stores/access/atom";
+import authState from "../stores/auth/atom";
 import HandleCart from "../hooks/HandleCart";
 
 const createLink = (text, path) => {

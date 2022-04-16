@@ -1,5 +1,5 @@
 import TableCell from "@mui/material/TableCell";
-import authState from "../stores/access/atom";
+import authState from "../stores/auth/atom";
 import { Link as RouterLink } from "react-router-dom";
 import { Link } from "@mui/material";
 import { useRecoilValue } from "recoil";
