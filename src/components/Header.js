@@ -20,8 +20,8 @@ const settings = [
 ];
 
 const Header = () => {
-	const [anchorElNav, setAnchorElNav] = React.useState(null);
-	const [anchorElUser, setAnchorElUser] = React.useState(null);
+	const [, setAnchorElNav] = React.useState(null);
+	const [, setAnchorElUser] = React.useState(null);
 	const auth = useRecoilValue(authState);
 	const resetAuth = useResetRecoilState(authState);
 	const navigate = useNavigate();
